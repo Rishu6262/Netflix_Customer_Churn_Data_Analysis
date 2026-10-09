@@ -1,6 +1,5 @@
 🎬 Netflix Customer Churn — Data Analysis Dashboard
 
-live link : https://netflixcustomerchurndataanalysis.streamlit.app/
 
 An interactive **Exploratory Data Analysis (EDA)** dashboard built with Python to explore Netflix customer behavior and patterns associated with customer churn. The dashboard uses **Streamlit, Pandas, NumPy, Matplotlib, and Seaborn**.
 
