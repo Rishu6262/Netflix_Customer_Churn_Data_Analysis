@@ -1,6 +1,4 @@
-from pathlib import Path
-
-readme = r'''# 🎬 Netflix Customer Churn — Data Analysis Dashboard
+🎬 Netflix Customer Churn — Data Analysis Dashboard
 
 An interactive **Exploratory Data Analysis (EDA)** dashboard built with Python to explore customer engagement, subscription patterns, and churn in a Netflix-style customer dataset. Users can upload a CSV or Excel file and explore the data through interactive sections, summary metrics, statistical tables, and visualizations.
 
@@ -41,9 +39,8 @@ This project turns a customer dataset into a multi-section analytics dashboard. 
 
 ### 🌐 Project Links
 
-- **Live Dashboard:** _Add your Streamlit deployment URL_
-- **GitHub Repository:** _Add your repository URL_
-- **Dataset Source:** _Add the source or describe the dataset as synthetic, if applicable_
+- **Live Dashboard:**  https://netflixcustomerchurndataanalysis.streamlit.app/
+- **GitHub Repository:** https://github.com/Rishu6262
 
 ## 🎯 Problem Statement
 
@@ -497,15 +494,6 @@ python -m pip install openpyxl
 **Rishu Gurjar**  
 B.Tech Student | Python | Data Analysis | Machine Learning
 
-- **GitHub:** _Add your GitHub profile URL_
-- **LinkedIn:** _Add your LinkedIn profile URL_
 
----
 
-## 📄 License
 
-No license is specified by this README. Before publishing, choose a license that matches how you want others to use the project and add the corresponding `LICENSE` file.
-'''
-path = Path("/mnt/data/README_Netflix_Customer_Churn_Deep_Dive.md")
-path.write_text(readme, encoding="utf-8")
-print(f"Created enhanced README: {path}")
